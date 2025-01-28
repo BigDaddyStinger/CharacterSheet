@@ -41,7 +41,7 @@ public class CharacterSheet : MonoBehaviour
                 {
                     Debug.Log(characterName + " hit the enemy so hard, they fell down and lost a turn!");
                 }
-                else if (dexAttackPoints > enemyAC)
+                else if (dexAttackPoints >= enemyAC)
                 {
                     Debug.Log("Enemy is hit!");
                 }
@@ -64,7 +64,7 @@ public class CharacterSheet : MonoBehaviour
                 {
                     Debug.Log(characterName + " hit the enemy so hard, they fell down and lost a turn!");
                 }
-                else if (strengthAttackPoints > enemyAC)
+                else if (strengthAttackPoints >= enemyAC)
                 {
                     Debug.Log("Enemy is hit!");
                 }
