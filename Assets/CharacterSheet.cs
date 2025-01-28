@@ -19,7 +19,7 @@ public class CharacterSheet : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        enemyAC = UnityEngine.Random.Range(1, 20);
+        enemyAC = UnityEngine.Random.Range(10, 20);
         diceRoll = UnityEngine.Random.Range(1, 20);
         dexAttackPoints = diceRoll + dexMod;
         strengthAttackPoints = diceRoll + strengthMod;
