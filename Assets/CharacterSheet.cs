@@ -23,7 +23,7 @@ public class CharacterSheet : MonoBehaviour
         diceRoll = UnityEngine.Random.Range(1, 20);
         dexAttackPoints = diceRoll + dexMod;
         strengthAttackPoints = diceRoll + strengthMod;
-        //Debug.Log("I'm A Princess");
+        //Debug.Log("I'm A Test");
 
         if (finesseWeapon == true)
         {
